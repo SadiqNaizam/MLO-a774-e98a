@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    /* Doraemon Light Theme */
-    --background: 0 0% 100%; /* White */
-    --foreground: 0 0% 20%; /* Dark Gray/Off-Black */
+    /* Doraemon Light Theme - Modified for black background */
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 0% 98%; /* Near White (was Dark Gray/Off-Black) */
 
     --card: 0 0% 100%; /* White */
     --card-foreground: 0 0% 20%; /* Dark Gray/Off-Black */
@@ -50,9 +50,9 @@
   }
 
   .dark {
-    /* Doraemon Dark Theme Adaptation */
-    --background: 220 15% 10%; /* Dark Blue-Gray */
-    --foreground: 210 20% 95%; /* Light Gray/Off-White */
+    /* Doraemon Dark Theme Adaptation - Modified for black background */
+    --background: 0 0% 0%; /* Black (was Dark Blue-Gray) */
+    --foreground: 210 20% 95%; /* Light Gray/Off-White (remains suitable) */
 
     --card: 220 15% 15%; /* Slightly Lighter Dark Blue-Gray */
     --card-foreground: 210 20% 95%; /* Light Gray/Off-White */
